@@ -19,7 +19,7 @@ namespace MobileTest1
 
 		protected override void OnStart ()
 		{
-			// Handle when your app starts
+			// Handle when your app starts e
 		}
 
 		protected override void OnSleep ()
