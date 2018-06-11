@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileTest1.Views.ScottsView">
+    <ContentView.Content>
+        <StackLayout>
+            <Frame HasShadow="True" OutlineColor="Gray" Padding="10">
+                <StackLayout Orientation="Vertical" >
+
+                    <Label Text="FormHeader" />
+                    <StackLayout Orientation="Vertical" >
+
+                        <Label Text="Open Web Command" />
+                        <Button Command="{Binding Path=OpenWebCommand, Mode=TwoWay}" Text="OpenWeb" HorizontalOptions="Start" x:Name="openWebCommand" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Label Text="Hello Xamarin.Forms!" />
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
