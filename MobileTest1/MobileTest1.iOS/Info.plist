@@ -25,7 +25,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>iOSTestApp</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.gs2websolutions</string>
+	<string>com.gs2</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
