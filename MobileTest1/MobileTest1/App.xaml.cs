@@ -24,7 +24,7 @@ namespace MobileTest1
 		{
             // Handle when your app starts e
             AppCenter.Start("android=b2365228-c7dd-48f4-a8ba-4727e0da1fe1;" +
-                  "ios=dc6c8d01-f614-4c21-ae83-33fe38cd2026;",
+                  "ios=b1f9fe31-39d4-4e12-880e-bdd8e707957e;",
                   typeof(Analytics), typeof(Crashes));
             AppCenter.Start("android=b2365228-c7dd-48f4-a8ba-4727e0da1fe1;" + "ios=b1f9fe31-39d4-4e12-880e-bdd8e707957e;", typeof(Analytics), typeof(Crashes));
         }
